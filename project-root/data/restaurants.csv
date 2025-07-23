@@ -1,0 +1,652 @@
+restaurant_id,name,state,district,latitude,longitude,cuisine,veg_nonveg,image_path,rating
+1,Green Leaf,Punjab,Amritsar,31.6341,74.8723,Indian|Chinese,Veg,C:\Users\Hp\Desktop\RMS3\restaurant_reco\images\res1.jpg,4.3
+2,Spice Hub,Punjab,Jalandhar,31.3262,75.5765,Indian|Mexican,Non-Veg,https://unsplash.com/photos/a-person-swimming-in-the-ocean-near-a-coral-reef-g_suks3yx-U,3.8
+3,Urban Bites,Punjab,Ludhiana,30.9012,75.8579,Italian|Continental,Non-Veg,images/3.jpg,4.0
+4,Herbivore,Punjab,Patiala,30.34,76.3856,Indian|Vegan,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.7
+5,BBQ Nation,Punjab,Mohali,30.7054,76.7184,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.1
+6,The Curry Pot,Punjab,Bathinda,30.2108,74.9461,Indian|Thai,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.6
+7,Fiesta Mexicana,Punjab,Pathankot,32.2659,75.6478,Mexican,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.8
+8,Little Italy,Punjab,Moga,30.8163,75.1677,Italian|Pizza,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.2
+9,Dragon Palace,Punjab,Hoshiarpur,31.5331,75.9133,Chinese|Thai,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.5
+10,The Veggie Table,Punjab,Faridkot,30.6788,74.7581,Continental|Vegan,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.9
+11,Bites & Brilliance,Punjab,Ludhiana,30.9024,75.8651,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.7
+12,Savory Sojourn,Punjab,Amritsar,31.6356,74.8737,Indian|Pizza,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.5
+13,Dish Delights & Design,Punjab,Jalandhar,31.3318,75.5792,Indian|BBQ,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,3.8
+14,Culinary Canopy,Punjab,Patiala,30.3488,76.3901,BBQ|Vegan,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.0
+15,Taste & Tell Bistro,Punjab,Kapurthala,31.3845,75.3846,Continental|BBQ,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.1
+16,The Gastronomy Gallery,Punjab,Mohali,30.7169,76.7211,Indian|Mexican,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.9
+17,Palette & Plateau,Punjab,Bathinda,30.2187,74.9502,Chinese|Pizza,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.2
+18,Fork & Fortune Cafe,Punjab,Pathankot,32.2688,75.6521,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.7
+19,Crave & Create Kitchen,Punjab,Moga,30.8145,75.1693,Italian|Vegan,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.0
+20,Epicurean Odyssey,Punjab,Firozpur,30.9306,74.6218,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.6
+21,Flavor & Finesse Feast,Punjab,Sangrur,30.2511,75.8413,Mexican|Pizza,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.4
+22,Spice & Spark Grill,Punjab,Hoshiarpur,31.5301,75.9184,Indian|Continental,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.3
+23,Artful Appetites,Punjab,Faridkot,30.6755,74.7612,Chinese|Thai,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.6
+24,Savor & Serendipity,Punjab,Ludhiana,30.9045,75.8579,Italian|BBQ,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.6
+25,Nosh & Notions,Punjab,Patiala,30.3471,76.3884,Indian|Vegan,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.1
+26,Table & Tales Bistro,Punjab,Bathinda,30.2176,74.9494,BBQ|Pizza,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.8
+27,Gusto & Gourmet Galore,Punjab,Amritsar,31.637,74.8725,Continental|Mexican,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,3.7
+28,Culinary Canvas Co.,Punjab,Jalandhar,31.3368,75.5774,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.2
+29,Delish & Design Dining,Punjab,Pathankot,32.2637,75.6502,Chinese|Vegan,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.5
+30,Sip & Savor Studio,Punjab,Kapurthala,31.3862,75.3889,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.9
+31,Palate & Palette Grill,Punjab,Moga,30.8187,75.1648,Italian|Pizza,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.1
+32,Cuisine & Craftsmanship,Punjab,Amritsar,31.6314,74.8784,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.8
+33,Savory Strokes Eateries,Punjab,Firozpur,30.9312,74.6241,Mexican|BBQ,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.7
+34,Taste & Technique Tavern,Punjab,Sangrur,30.2492,75.8424,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.6
+35,Fork & Flourish,Punjab,Patiala,30.3407,76.3936,Chinese|Pizza,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.4
+36,Flavor & Flourish Fusion,Punjab,Hoshiarpur,31.5352,75.9115,Italian|Continental,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.9
+37,Artistry & Appetizers,Punjab,Faridkot,30.6779,74.7552,BBQ|Vegan,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.7
+38,Epicurean Elegance,Punjab,Amritsar,31.6382,74.8705,Indian|Pizza,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.6
+39,Dish & Delight Design,Punjab,Jalandhar,31.3284,75.5701,Continental|Thai,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.9
+40,Culinary Creativity Collective,Punjab,Bathinda,30.2149,74.943,BBQ|Mexican,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.8
+41,Bistro Bliss,Punjab,Ludhiana,30.9079,75.8537,Indian|Vegan,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.2
+42,The Hungry Fork,Punjab,Firozpur,30.9321,74.6265,Chinese|Pizza,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,3.5
+43,Savory Streets,Punjab,Kapurthala,31.3737,75.3866,Italian|BBQ,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.9
+44,The Golden Plate,Punjab,Sangrur,30.2583,75.8499,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.1
+45,Spice & Slice,Punjab,Hoshiarpur,31.5339,75.9133,BBQ|Vegan,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.7
+46,Tasty Twist,Punjab,Pathankot,32.2672,75.6497,Indian|Pizza,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.3
+47,Grill & Thrill,Punjab,Ludhiana,30.9005,75.8589,Chinese|Thai,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.8
+48,Sizzle & Spice,Punjab,Patiala,30.3412,76.3902,Italian|Vegan,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.0
+49,Slice of Life,Punjab,Mohali,30.7098,76.7199,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.4
+50,Buns & Bites,Punjab,Moga,30.8122,75.166,Continental|Pizza,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.6
+51,Plant Power Cafe,Punjab,Bathinda,30.2155,74.9489,Indian|Mexican,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.9
+52,Green Plate Special,Punjab,Kapurthala,31.3802,75.3848,Chinese|Pizza,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.8
+53,Leaf & Root,Punjab,Jalandhar,31.3385,75.5793,Thai|Continental,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.1
+54,The Vegan Haven,Punjab,Ludhiana,30.8999,75.8631,Italian|BBQ,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.6
+55,Fresh & Green,Punjab,Sangrur,30.2499,75.8566,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.0
+56,Earth Eats Bistro,Punjab,Amritsar,31.6349,74.8781,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.7
+57,Herbivore Kitchen,Punjab,Moga,30.8126,75.1678,Continental|Mexican,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.9
+58,Wildflower Café,Punjab,Pathankot,32.2621,75.6649,Indian|Pizza,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.5
+59,Roots & Shoots,Punjab,Hoshiarpur,31.5348,75.9117,Chinese|Vegan,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.2
+60,Verdant Table,Punjab,Faridkot,30.6761,74.7554,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.5
+61,Kale & Carrot,Punjab,Patiala,30.3498,76.3815,Italian|Pizza,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.2
+62,The Greenhouse Table,Punjab,Bathinda,30.2175,74.9432,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.7
+63,The Beanstalk Bistro,Punjab,Bathinda,30.2105,74.9496,Mexican|BBQ,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.8
+64,Sunflower Kitchen,Punjab,Sangrur,30.2469,75.8422,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.6
+65,The Veggie Vault,Punjab,Kapurthala,31.3819,75.3817,Chinese|Pizza,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.1
+66,Farm to Fork Café,Punjab,Amritsar,31.6335,74.8722,Italian|Continental,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.5
+67,Sprout & Leaf,Punjab,Jalandhar,31.3271,75.5846,BBQ|Vegan,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.7
+68,Pure Plate,Punjab,Ludhiana,30.9013,75.8652,Indian|Pizza,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.1
+69,The Herbivore’s Hideout,Punjab,Moga,30.8155,75.1705,Continental|Thai,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.9
+70,Garden Gourmet,Punjab,Patiala,30.3421,76.3889,BBQ|Mexican,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.5
+71,Chewsy Lovers,Punjab,Faridkot,30.679,74.7572,Indian|Vegan,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.6
+72,Bite Me Bistro,Punjab,Bathinda,30.2124,74.9474,Chinese|Pizza,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.3
+73,Fork Off Café,Punjab,Hoshiarpur,31.5387,75.9187,Italian|BBQ,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.7
+74,Gravy Voyage,Punjab,Ropar,30.9681,76.5276,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.0
+75,Eat's Funny,Punjab,Firozpur,30.9278,74.6213,BBQ|Vegan,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.1
+76,Nosh Pit,Punjab,Pathankot,32.2685,75.6435,Indian|Pizza,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.5
+77,Wok and Roll,Punjab,Jalandhar,31.3293,75.5741,Chinese|Thai,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.4
+78,Bean There Done That,Punjab,Amritsar,31.6319,74.8777,Italian|Vegan,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.3
+79,Wok This Way,Punjab,Ludhiana,30.9041,75.8602,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.8
+80,The Hidden Pantry,Punjab,Patiala,30.3457,76.3904,Continental|Pizza,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.6
+81,Midnight Feast,Punjab,Sangrur,30.2578,75.8416,Indian|Mexican,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.2
+82,Firefly Fare,Punjab,Bathinda,30.2108,74.9453,Chinese|Pizza,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.7
+83,Nine Geese Circle,Punjab,Pathankot,32.2671,75.645,Thai|Continental,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.0
+84,Rust & Rose,Punjab,Sangrur,30.2592,75.8428,Italian|BBQ,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.4
+85,Salt + Pepper Society,Punjab,Kapurthala,31.3772,75.3809,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.7
+86,Blue Door Kitchen,Punjab,Bathinda,30.2199,74.944,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.3
+87,The Tasting Room,Punjab,Jalandhar,31.3378,75.5855,Continental|Mexican,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.8
+88,The Taste Lab,Punjab,Amritsar,31.6394,74.8721,Indian|Pizza,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.7
+89,Golden Hour Grub,Punjab,Moga,30.817,75.1682,Chinese|Vegan,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.9
+90,Salt and Stars,Punjab,Faridkot,30.6703,74.7592,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.2
+91,The Lost Recipe,Punjab,Patiala,30.346,76.3917,Italian|Pizza,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.8
+92,Forks and Folklore,Punjab,Hoshiarpur,31.531,75.9161,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.9
+93,Palette Plates,Punjab,Firozpur,30.9322,74.6216,Mexican|BBQ,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.2
+94,Whisk and Wonder,Punjab,Bathinda,30.2119,74.9475,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.4
+95,Chroma Café,Punjab,Jalandhar,31.3361,75.5725,Chinese|Pizza,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.7
+96,Dine Divine,Punjab,Kapurthala,31.3782,75.3896,Thai|Continental,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.6
+97,The Flavor Studio,Punjab,Sangrur,30.2568,75.8403,Mexican|Thai,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.2
+98,The Atelier,Punjab,Ludhiana,30.9002,75.8636,Vegan|Pizza,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.5
+99,The Art of Appetite,Punjab,Firozpur,30.9291,74.622,BBQ,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,3.9
+100,Urban Graze,Punjab,Ropar,30.9698,76.5264,Indian|Continental,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.1
+101,Bean Palace,Punjab,Gurdaspur,32.0412,75.4069,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.2
+102,Artful Feast,Punjab,Barnala,30.3745,75.5489,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,2.7
+103,Leaf Society,Punjab,Gurdaspur,32.041,75.4002,BBQ|Vegan,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.7
+104,Flourish Vault,Punjab,Barnala,30.376,75.5497,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.4
+105,Tasty Canvas,Punjab,Barnala,30.366,75.5401,Italian|Continental,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.9
+106,Bliss Works,Punjab,Fatehgarh Sahib,30.6477,76.3967,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.6
+107,Delight House,Punjab,Fatehgarh Sahib,30.6499,76.3971,Indian|Continental,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.1
+108,Canvas Heights,Punjab,Fatehgarh Sahib,30.6502,76.3989,Indian|Mexican,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.8
+109,Hideout Spot,Punjab,Fazilka,30.4036,74.0284,Thai|Continental,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.6
+110,Roots Diner,Punjab,Fazilka,30.4021,74.0243,Vegan|Pizza,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.7
+111,Junction Bowls,Punjab,Fazilka,30.4084,74.0291,Indian|Chinese,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.3
+112,Plaza Palace,Punjab,Muktsar,30.4778,74.5169,BBQ|Indian,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,2.9
+113,Bean Heights,Punjab,Muktsar,30.477,74.52,Mexican|Pizza,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.0
+114,Urban Spot,Punjab,Muktsar,30.479,74.526,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.5
+115,Savor Society,Punjab,Malerkotla,30.5234,75.8796,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.2
+116,Feast Point,Punjab,Malerkotla,30.5299,75.8814,Continental|Vegan,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.6
+117,Delight Works,Punjab,Malerkotla,30.5244,75.8822,Italian|Pizza,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,2.4
+118,Lounge Thrill,Punjab,Tarn Taran,31.4517,74.9276,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.4
+119,Beanish Plates,Punjab,Tarn Taran,31.4492,74.9331,Indian|Vegan,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.6
+120,Nest Palace,Punjab,Tarn Taran,31.4482,74.9192,Indian|Pizza,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.9
+121,Palate Kitchen,Punjab,SBS Nagar,31.1255,76.1176,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.7
+122,Urban Bowls,Punjab,SBS Nagar,31.1288,76.12,BBQ|Indian,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.3
+123,Vault Factory,Punjab,SBS Nagar,31.1301,76.1223,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.5
+124,Roots Nest,Punjab,Mansa,29.9891,75.3991,Indian|Continental,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,2.8
+125,Palette Grills,Punjab,Mansa,29.995,75.4022,Mexican|BBQ,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.9
+126,Root Nest,Punjab,Mansa,29.9964,75.3975,Indian|Chinese,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,2.5
+127,Works Junction,Punjab,Fatehgarh Churian,32.1401,74.9542,Irish|Pizza,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.8
+128,Golden Grill,Punjab,Fatehgarh Churian,32.1457,74.9489,BBQ|Mexican,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.1
+129,Urban Court,Punjab,Fatehgarh Churian,32.1438,74.9437,Indian|Vegan,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.8
+130,Crave Works,Punjab,Anandpur Sahib,31.2381,76.5074,BBQ|Pizza,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.2
+131,Herb Place,Punjab,Anandpur Sahib,31.2452,76.5148,Italian|Vegan,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,5.0
+132,Factory Palace,Punjab,Anandpur Sahib,31.2477,76.5203,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.4
+133,Red Route,Punjab,Abohar,30.1498,74.1932,BBQ|Indian,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,2.9
+134,Salt Bowls,Punjab,Abohar,30.1635,74.2022,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,2.5
+135,Palette Bowls,Punjab,Abohar,30.1601,74.1893,BBQ|Bbq,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.9
+136,Savor Mansion,Punjab,Malout,30.1957,74.4689,Italian|Vegan,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.2
+137,Fresh Nest,Punjab,Malout,30.1829,74.4669,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.1
+138,Society Place,Punjab,Malout,30.1812,74.4738,Chinese|Pizza,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.9
+139,Brew House,Punjab,Batala,31.8182,75.2039,Chinese|Thai,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,2.6
+140,Golden Co.,Punjab,Batala,31.8198,75.2052,BBQ|Vegan,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.7
+141,Epicurean Spot,Punjab,Batala,31.8147,75.2017,Indian|Pizza,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.8
+142,Sip Spot,Punjab,Barnala,30.3737,75.5418,Continental|Pizza,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.5
+143,Sprout House,Punjab,Bathinda,30.2133,74.9433,Indian|Vegan,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.1
+144,Crave Place,Punjab,Jalandhar,31.3397,75.5788,BBQ|Indian,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.3
+145,Buns Empire,Punjab,Bathinda,30.2135,74.9516,Continental|Vegan,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.7
+146,Mansion Nest,Punjab,Amritsar,31.6361,74.8781,Thai|Continental,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.2
+147,Root Heights,Punjab,Sangrur,30.2558,75.8489,BBQ|Indian,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.9
+148,Bliss Factory,Punjab,Fazilka,30.4003,74.0301,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.2
+149,Plateau Lounge,Punjab,Patiala,30.3476,76.3924,Chinese|Thai,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,2.5
+150,Savor Bliss,Punjab,Gurdaspur,32.0494,75.4141,Continental|Pizza,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.7
+151,Bean Vault,Punjab,Gurdaspur,32.0471,75.4015,Italian|Mexican,Veg,images/151.jpg,4.6
+152,Urban Grill,Punjab,Barnala,30.375,75.5491,Indian|BBQ,Non-Veg,images/152.jpg,3.0
+153,Taste Palate,Punjab,Fatehgarh Sahib,30.65,76.3933,Vegan|Pizza,Non-Veg,images/153.jpg,4.0
+154,Palette Gallery,Punjab,Fazilka,30.4014,74.0282,Continental|BBQ,Veg,images/154.jpg,2.3
+155,Leaf Canvas,Punjab,Muktsar,30.4791,74.5154,Indian|Continental,Non-Veg,images/155.jpg,2.2
+156,Flavor Diner,Punjab,Malerkotla,30.527,75.8771,Mexican|Pizza,Veg,images/156.jpg,3.7
+157,Brew Junction,Punjab,Tarn Taran,31.457,74.9342,Chinese|Thai,Non-Veg,images/157.jpg,4.9
+158,Golden Spot,Punjab,SBS Nagar,31.1237,76.1199,Indian|Pizza,Veg,images/158.jpg,4.1
+159,Fusion Kitchen,Punjab,Mansa,29.9937,75.3961,Vegan|Pizza,Non-Veg,images/159.jpg,2.8
+160,Roots Café,Punjab,Fatehgarh Churian,32.1579,74.9482,BBQ|Chinese,Veg,images/160.jpg,3.3
+161,Bliss Lounge,Punjab,Anandpur Sahib,31.2471,76.5189,Italian|Pizza,Veg,images/161.jpg,5.0
+162,Nosh Bliss,Punjab,Abohar,30.1621,74.202,Thai|Indian,Non-Veg,images/162.jpg,3.3
+163,Palate Bliss,Punjab,Malout,30.1821,74.4608,Bistro|Mexican,Veg,images/163.jpg,3.6
+164,Crave Place,Punjab,Batala,31.8219,75.2107,Indian|Chinese,Non-Veg,images/164.jpg,4.9
+165,Garden Vault,Punjab,Barnala,30.3774,75.5513,Indian|Thai,Veg,images/165.jpg,3.1
+166,Nest Kitchen,Punjab,Fatehgarh Sahib,30.6462,76.3982,BBQ|Pizza,Non-Veg,images/166.jpg,3.7
+167,Artful Court,Punjab,Fazilka,30.4071,74.0339,Indian|Mexican,Non-Veg,images/167.jpg,3.5
+168,Root Factory,Punjab,Muktsar,30.476,74.5114,Mexican|BBQ,Veg,images/168.jpg,4.4
+169,Herb Grill,Punjab,Malerkotla,30.5249,75.8857,Italian|Thai,Veg,images/169.jpg,4.8
+170,Nosh Nest,Punjab,Tarn Taran,31.4557,74.9267,BBQ|Mexican,Non-Veg,images/170.jpg,2.3
+171,Bliss Kitchen,Punjab,SBS Nagar,31.1214,76.1157,Indian|BBQ,Veg,images/171.jpg,4.1
+172,Palate Diner,Punjab,Mansa,29.9902,75.3969,Continental|Vegan,Non-Veg,images/172.jpg,4.6
+173,Delish Canvas,Punjab,Fatehgarh Churian,32.1576,74.9612,Indian|BBQ,Veg,images/173.jpg,2.5
+174,Flavor Diner,Punjab,Anandpur Sahib,31.2401,76.5102,Indian|Butter Chicken,Non-Veg,images/174.jpg,3.7
+175,Gusto Savor,Punjab,Abohar,30.166,74.1933,Mexican|Pizza,Veg,images/175.jpg,4.5
+176,Garden Bowls,Punjab,Malout,30.198,74.4649,BBQ|BBQ,Non-Veg,images/176.jpg,4.0
+177,Fork & Beans,Punjab,Batala,31.8184,75.201,Italian|Continental,Veg,images/177.jpg,4.3
+178,Palette Place,Punjab,Gurdaspur,32.0455,75.4134,Indian|Kebabs,Non-Veg,images/178.jpg,4.7
+179,Tandoori Vault,Punjab,Ludhiana,30.9077,75.8674,BBQ|Tandoori,Veg,images/179.jpg,2.9
+180,Biriyani Works,Punjab,Patiala,30.3445,76.3822,Indian|Biriyani,Non-Veg,images/180.jpg,3.8
+181,Kathi Junction,Punjab,Mohali,30.7,76.719,Indian|Kathi Roll,Non-Veg,images/181.jpg,3.2
+182,Urban Oven,Punjab,Jalandhar,31.337,75.57,Pizza|Chinese,Veg,images/182.jpg,3.4
+183,Juice & Spice,Punjab,Moga,30.8201,75.16,Juice|Continental,Veg,images/183.jpg,2.4
+184,Dal Delight,Punjab,Amritsar,31.6336,74.8752,Indian|Punjabi,Veg,images/184.jpg,3.5
+185,Malai House,Punjab,Bathinda,30.2141,74.9402,Indian|Mughlai,Veg,images/185.jpg,2.0
+186,Chai Point,Punjab,Hoshiarpur,31.5339,75.9102,Snacks|Tea,Veg,images/186.jpg,4.3
+187,IceBrew Cafe,Punjab,Firozpur,30.9318,74.619,Coffee|Cafe,Veg,images/187.jpg,4.9
+188,GurLiz Diner,Punjab,Mansa,29.9874,75.3991,Kebabs|Mughlai,Non-Veg,images/188.jpg,3.3
+189,Cheesy Slice,Punjab,Barnala,30.3712,75.5481,Pizza|Italian,Veg,images/189.jpg,4.8
+190,Sassy Bistro,Punjab,Patiala,30.3499,76.3901,Bistro|Italian,Veg,images/190.jpg,4.0
+191,Veg Vibes,Punjab,Amritsar,31.6302,74.8792,Vegan|Chinese,Veg,images/191.jpg,2.5
+192,Dhaba Delight,Punjab,Jalandhar,31.3277,75.5786,Indian|Dhaba,Non-Veg,images/192.jpg,4.4
+193,Punjab Flavours,Punjab,Kapurthala,31.3823,75.3812,Indian|Punjabi,Non-Veg,images/193.jpg,2.7
+194,Chaska Cafe,Punjab,Sangrur,30.2552,75.8491,Cafe|Snacks,Veg,images/194.jpg,3.9
+195,ChickPea Hub,Punjab,Mohali,30.7093,76.7161,Vegan|Continental,Veg,images/195.jpg,2.8
+196,Royal Feast,Punjab,Bathinda,30.2165,74.9505,Indian|Chinese,Non-Veg,images/196.jpg,2.7
+197,Cafe Pathankot,Punjab,Pathankot,32.2702,75.6489,Cafe|Snacks,Veg,images/197.jpg,3.0
+198,Tawa Treat,Punjab,Sangrur,30.2503,75.8408,Indian|Tawa,Veg,images/198.jpg,4.1
+199,Desi Zaika,Punjab,Muktsar,30.4782,74.5157,Indian|Punjabi,Non-Veg,images/199.jpg,2.2
+200,Urban Slice,Punjab,Gurdaspur,32.0466,75.4081,Pizza|Italian,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.5
+201,Masala Avenue,Punjab,Patiala,30.3455,76.3881,Indian|Tandoori,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.3
+202,Mainland Magic,Punjab,Ludhiana,30.9055,75.8539,Chinese|Thai,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.6
+203,Palate Lounge,Punjab,Patiala,30.3501,76.3897,Italian|Mexican,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,2.7
+204,Lotus Treat,Punjab,Mohali,30.7183,76.7146,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.0
+205,Moti Mahal,Punjab,Amritsar,31.6312,74.8708,North Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.9
+206,Fusion Table,Punjab,Bathinda,30.2146,74.9478,Continental|Chinese,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,2.5
+207,Spice N Ice,Punjab,Hoshiarpur,31.5343,75.9132,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.1
+208,Flavour Junction,Punjab,Moga,30.8182,75.1677,Indian|Pizza,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,2.3
+209,Masala Mantra,Punjab,Ludhiana,30.9002,75.8644,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.6
+210,Peppy Paratha,Punjab,Jalandhar,31.3295,75.5775,North Indian|Punjabi,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.8
+211,Tandoor Tales,Punjab,Kapurthala,31.3823,75.3824,BBQ|Punjabi,Non-Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,2.9
+212,Paneer Point,Punjab,Barnala,30.3725,75.5485,Indian|Punjabi,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,3.8
+213,Spicy Spoon,Punjab,Pathankot,32.2656,75.6507,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,3.0
+214,Ginger Garlic,Punjab,Firozpur,30.9299,74.6209,Indian|Thai,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.4
+215,Pizza Trails,Punjab,Ludhiana,30.9087,75.8613,Pizza|Italian,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.9
+216,Mustard Leaf,Punjab,Sangrur,30.2561,75.849,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.5
+217,Hot Plate,Punjab,Bathinda,30.2222,74.945,Snacks|Indian,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.2
+218,Veggie Delight,Punjab,Amritsar,31.6375,74.8852,Vegan|Continental,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.8
+219,Delhi Zaika,Punjab,Ludhiana,30.8991,75.8685,North Indian|Mughlai,Non-Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,3.7
+220,Zaika Mahal,Punjab,Jalandhar,31.3258,75.5702,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.1
+221,Food Mood,Punjab,Kapurthala,31.3803,75.3858,Indian|Mexican,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.3
+222,Shahi Tandoor,Punjab,Mohali,30.7087,76.7207,Mughlai|BBQ,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,2.7
+223,Seven Spice,Punjab,Patiala,30.3422,76.3828,Indian|Thai,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,2.9
+224,Moti’s Bistro,Punjab,Bathinda,30.2184,74.9437,Cafe|Snacks,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.3
+225,Urban Masala,Punjab,Moga,30.8244,75.1635,North Indian|Punjabi,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.1
+226,Curry Central,Punjab,Faridkot,30.6766,74.7548,Indian|BBQ,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,3.7
+227,Simran’s Dhaba,Punjab,Gurdaspur,32.047,75.4092,Indian|Punjabi,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.8
+228,Peppercorn,Punjab,Fatehgarh Sahib,30.6475,76.3978,North Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.7
+229,Maharaja Feast,Punjab,Malerkotla,30.5299,75.8781,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.4
+230,Chef’s Court,Punjab,Fazilka,30.4003,74.0256,Continental|Vegan,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.6
+231,Golden Wok,Punjab,Jalandhar,31.332,75.58,Chinese|Thai,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.1
+232,Punjabi Virsa,Punjab,Amritsar,31.6411,74.8726,Indian|Punjabi,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.0
+233,Palak Palace,Punjab,Hoshiarpur,31.5338,75.9145,Indian|Punjabi,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.5
+234,The Yellow Bowl,Punjab,Sangrur,30.2535,75.8476,Punjabi|Chinese,Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,2.6
+235,Masala Library,Punjab,Firozpur,30.9317,74.625,Continental|North Indian,Non-Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,2.7
+236,Urban Chaat,Punjab,Patiala,30.3508,76.39,Chaat|Indian,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.8
+237,Cookhouse & Co.,Punjab,Ludhiana,30.9057,75.8667,Continental|Chinese,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.0
+238,Bread & Butter,Punjab,Mohali,30.7024,76.7137,Bakery|Snacks,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.7
+239,On The Way Café,Punjab,Pathankot,32.2634,75.6474,Cafe|Continental,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.2
+240,Tandoor Treat,Punjab,Ropar,30.9686,76.522,BBQ|Punjabi,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.9
+241,Seasons Taste,Punjab,Barnala,30.374,75.5502,North Indian|Thai,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.2
+242,Splendid Kitchen,Punjab,Firozpur,30.9277,74.6222,Italian|Veg,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.2
+243,Mirch Masala,Punjab,Fatehgarh Sahib,30.6468,76.3951,Indian|Continental,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,2.1
+244,Saffron Street,Punjab,Fazilka,30.401,74.0263,North Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.9
+245,Classic Café,Punjab,SBS Nagar,31.126,76.122,Cafe|Bakes,Veg,https://images.unsplash.com/photo-1467119287668-870f8a9125b0?auto=format&fit=crop&w=400&q=80,4.2
+246,Tandoori Trail,Punjab,Gurdaspur,32.0436,75.4089,BBQ|Chinese,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.5
+247,Shuddh Shakahari,Punjab,Mansa,29.9927,75.3975,Vegetarian|Punjabi,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.9
+248,Hot Chilli,Punjab,Bathinda,30.2132,74.9483,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,2.7
+249,Saffron House,Punjab,Batala,31.8181,75.2035,North Indian|Punjabi,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,2.3
+250,Dosa Plaza,Punjab,Faridkot,30.6751,74.7602,South Indian|Snacks,Veg,https://images.unsplash.com/photo-1515984971042-6c09a0a0b27d?auto=format&fit=crop&w=400&q=80,3.3
+251,Chakhna Bar,Punjab,Mohali,30.7111,76.7212,Bar|Snacks,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.7
+252,Peppervine,Punjab,Patiala,30.3477,76.3926,Continental|BBQ,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.2
+253,Green Bowl,Punjab,Sangrur,30.2586,75.8447,Salads|Continental,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.4
+254,Taste & Toast,Punjab,Bathinda,30.2191,74.9491,Toast|Cafe,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,2.6
+255,Potato House,Punjab,Barnala,30.3723,75.5443,Indian|Snacks,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,5.0
+256,Red Chilli,Punjab,Hoshiarpur,31.5355,75.9148,Chinese|Snacks,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.9
+257,Biryani Villa,Punjab,Amritsar,31.638,74.8736,Indian|Biryani,Non-Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,3.7
+258,Hello Punjab,Punjab,Jalandhar,31.3373,75.5835,Indian|Punjabi,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.4
+259,The Tea Post,Punjab,SBS Nagar,31.1241,76.1219,Chai|Snacks,Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,3.6
+260,Pasta House,Punjab,Moga,30.8228,75.1661,Italian|Continental,Veg,https://images.unsplash.com/photo-1533777857889-4be7b050bd59?auto=format&fit=crop&w=400&q=80,4.2
+261,Eat Street,Punjab,Muktsar,30.4771,74.5128,Continental|Pizza,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,2.9
+262,Bakers Club,Punjab,Faridkot,30.6798,74.7597,Bakery|Cafe,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.1
+263,Food Factory,Punjab,Bathinda,30.2167,74.9471,Indian|BBQ,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.7
+264,Mexi Corner,Punjab,Malerkotla,30.5215,75.8826,Mexican|Continental,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.3
+265,Street Treat,Punjab,Mansa,29.9987,75.4003,Snacks|BBQ,Non-Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,3.4
+266,Jalebi Junction,Punjab,Amritsar,31.6332,74.869,Bakery|Snacks,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,5.0
+267,Mumbai Zaika,Punjab,Jalandhar,31.3369,75.5806,Indian|Street,Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,2.6
+268,The Sizzler,Punjab,Ludhiana,30.9037,75.8578,Indian|Sizzler,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.1
+269,Continental Wave,Punjab,Gurdaspur,32.0499,75.4121,Continental|North Indian,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.8
+270,Dew Drop Inn,Punjab,Ropar,30.9645,76.5253,Snacks|Inn,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.6
+271,Tea Leaves,Punjab,Barnala,30.3702,75.5459,Chai|Bakery,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.2
+272,Naan Nook,Punjab,Patiala,30.3499,76.3893,Indian|Punjabi,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.0
+273,The Burger House,Punjab,Mohali,30.7165,76.7181,Burgers|Snacks,Non-Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,4.1
+274,Heritage Café,Punjab,Pathankot,32.2701,75.6523,Continental|Punjabi,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,2.7
+275,Fit Foodies,Punjab,SBS Nagar,31.1291,76.1152,Salads|Healthy,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.9
+276,Kulfi Zone,Punjab,Faridkot,30.6758,74.7581,Dessert|Snacks,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.2
+277,Brown Hut,Punjab,Moga,30.8193,75.1682,Bakery|Cafe,Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,3.8
+278,The Rasoi,Punjab,Bathinda,30.2111,74.9469,Indian|Punjabi,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,2.1
+279,Mithaas Café,Punjab,Sangrur,30.2489,75.8417,Dessert|Chai,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.4
+280,Noodle Bar,Punjab,Ludhiana,30.9027,75.8673,Chinese|Snacks,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.7
+281,The Thali House,Punjab,Amritsar,31.6349,74.8742,North Indian|Punjabi,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.3
+282,Savoury Express,Punjab,Patiala,30.3488,76.3877,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.6
+283,Bonfire Bistro,Punjab,Jalandhar,31.3293,75.5732,Continental|BBQ,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.9
+284,Milan Mandi,Punjab,Bathinda,30.2189,74.9493,Indian|BBQ,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,2.9
+285,Taste Factory,Punjab,Firozpur,30.9319,74.6208,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,2.7
+286,Tea Tapri,Punjab,Muktsar,30.4769,74.512,Chai|Snacks,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.7
+287,Funky Slice,Punjab,Ludhiana,30.9003,75.8663,Pizza|BBQ,Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,4.5
+288,Chaska Junction,Punjab,Malout,30.1957,74.4644,Snacks|Punjabi,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.2
+289,Spice Takeaway,Punjab,Hoshiarpur,31.5316,75.9122,Indian|Street,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.8
+290,Veggie Land,Punjab,Moga,30.8132,75.1627,Salads|Italian,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.3
+291,Patiala Flavour,Punjab,Patiala,30.3467,76.3811,Indian|Tandoori,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,2.7
+292,Punjab Café,Punjab,Barnala,30.3749,75.5442,Cafe|Snacks,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.0
+293,Bean Brigade,Punjab,Mansa,29.9929,75.3994,Coffee|Snacks,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,3.7
+294,Chaska Kitchen,Punjab,Sangrur,30.2564,75.8407,Indian|Continental,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.5
+295,Epicure Kitchen,Punjab,Kapurthala,31.3802,75.3898,Continental|North Indian,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.6
+296,Chow Mein House,Punjab,Amritsar,31.6386,74.8762,Chinese|Snacks,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.3
+297,Madras Café,Punjab,Jalandhar,31.3376,75.579,South Indian|Cafe,Veg,https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=400&q=80,4.9
+298,Bean Basket,Punjab,Mohali,30.6993,76.7134,Continental|Bakery,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.2
+299,Crusty Corner,Punjab,Bathinda,30.2181,74.9425,Pizza|Bakery,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.4
+300,Dosa Central,Punjab,Barnala,30.3685,75.5464,South Indian|Snacks,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,2.8
+301,The Daily Dose,Punjab,Malerkotla,30.5229,75.879,Snacks|Cafe,Veg,images/301.jpg,3.6
+302,Patiala Grill,Punjab,Patiala,30.3477,76.3908,BBQ|Punjabi,Non-Veg,images/302.jpg,4.3
+303,Dilli 6 Cafe,Punjab,Ludhiana,30.9082,75.8642,North Indian|Chaat,Non-Veg,images/303.jpg,2.2
+304,Royal Treat,Punjab,Amritsar,31.6362,74.8729,North Indian|Chinese,Veg,images/304.jpg,3.8
+305,Flavours 47,Punjab,Mansa,29.989,75.3972,Continental|Salads,Veg,images/305.jpg,2.6
+306,Veggie Patch,Punjab,Firozpur,30.9283,74.6252,Salads|Continental,Veg,images/306.jpg,2.9
+307,Anardana Hub,Punjab,Pathankot,32.2631,75.6511,Indian|Punjabi,Non-Veg,images/307.jpg,4.1
+308,Lassi & More,Punjab,Barnala,30.3722,75.5419,Beverages|Snacks,Veg,images/308.jpg,4.5
+309,Melting Moments,Punjab,Bathinda,30.2199,74.9485,Bakery|Cafe,Veg,images/309.jpg,4.9
+310,The Purple Spoon,Punjab,Kapurthala,31.3777,75.3892,Indian|Punjabi,Non-Veg,images/310.jpg,3.2
+311,Green Dot Bistro,Punjab,Ropar,30.9691,76.5211,Continental|Salads,Veg,images/311.jpg,4.6
+312,Big Bowl Café,Punjab,Gurdaspur,32.0453,75.4131,Salads|Chai,Veg,images/312.jpg,3.9
+313,Ludhiana Bakes,Punjab,Ludhiana,30.9022,75.868,Bakery|Desserts,Veg,images/313.jpg,3.2
+314,The Cake Walk,Punjab,Hoshiarpur,31.5342,75.9138,Bakery|Cafe,Veg,images/314.jpg,2.7
+315,BBQ Stack,Punjab,Fazilka,30.4022,74.0253,BBQ|Snacks,Non-Veg,images/315.jpg,4.8
+316,Chicken Kingdom,Punjab,Faridkot,30.6782,74.7608,BBQ|Chicken,Non-Veg,images/316.jpg,2.7
+317,Mirchi Magic,Punjab,Amritsar,31.6325,74.8769,Indian|Spicy,Veg,images/317.jpg,3.3
+318,Urban Harvest,Punjab,Malerkotla,30.5217,75.8771,Vegan|Healthy,Veg,images/318.jpg,5.0
+319,Flavours Bay,Punjab,Mohali,30.7137,76.7212,Indian|Mexican,Non-Veg,images/319.jpg,3.4
+320,Snacks At Noon,Punjab,Patiala,30.3468,76.3933,Snacks|Bakery,Veg,images/320.jpg,4.0
+321,Cocoberry Bites,Punjab,Jalandhar,31.3395,75.5821,Continental|Desserts,Veg,images/321.jpg,3.1
+322,Mix Cafe,Punjab,Moga,30.8101,75.1718,Beverages|Cafe,Veg,images/322.jpg,2.0
+323,Tandoori Tales,Punjab,Ludhiana,30.9018,75.8607,BBQ|Tandoori,Non-Veg,images/323.jpg,2.6
+324,Dabba House,Punjab,Barnala,30.3708,75.5471,Indian|Punjabi,Veg,images/324.jpg,3.4
+325,Mughlai Munch,Punjab,Firozpur,30.9322,74.6238,Mughlai|Chinese,Non-Veg,images/325.jpg,2.1
+326,Spiced Zone,Punjab,Ropar,30.9682,76.5208,Indian|Continental,Veg,images/326.jpg,4.2
+327,Sunrise Café,Punjab,Amritsar,31.6359,74.8735,Continental|Cafe,Veg,images/327.jpg,2.8
+328,Paprika Bites,Punjab,Patiala,30.3489,76.3842,Indian|Mexican,Non-Veg,images/328.jpg,4.5
+329,Burger Bay,Punjab,Mohali,30.7134,76.7154,Burgers|Snacks,Non-Veg,images/329.jpg,4.8
+330,Golden Grains,Punjab,Ludhiana,30.9001,75.8582,Bakery|Snacks,Veg,images/330.jpg,4.3
+331,City Sweets,Punjab,SBS Nagar,31.1249,76.1182,Dessert|Bakery,Veg,images/331.jpg,2.5
+332,Taste Mania,Punjab,Jalandhar,31.3342,75.5848,Indian|Snacks,Non-Veg,images/332.jpg,3.5
+333,Sandwich Shack,Punjab,Bathinda,30.2149,74.9478,Bakery|Sandwich,Veg,images/333.jpg,3.6
+334,Clay Oven Brew,Punjab,Amritsar,31.6385,74.8735,Indian|Punjabi,Veg,images/334.jpg,2.9
+335,Toasty Café,Punjab,Barnala,30.3771,75.5461,Continental|Toasts,Veg,images/335.jpg,4.7
+336,Dahi Bhalla Hub,Punjab,Hoshiarpur,31.5313,75.9121,Street|Snacks,Veg,images/336.jpg,3.3
+337,Tadka Table,Punjab,Patiala,30.3471,76.3841,Indian|BBQ,Non-Veg,images/337.jpg,4.3
+338,Paneer Palace,Punjab,Ludhiana,30.901,75.864,Indian|Punjabi,Veg,images/338.jpg,4.0
+339,Castle Café,Punjab,Batala,31.8174,75.2027,Cafe|Bakes,Veg,images/339.jpg,4.9
+340,Bungalow Bar,Punjab,Gurdaspur,32.0458,75.4112,Bar|Snacks,Non-Veg,images/340.jpg,3.1
+341,Broast Bites,Punjab,Bathinda,30.2129,74.9498,BBQ|Snacks,Non-Veg,images/341.jpg,3.8
+342,Hot Oven House,Punjab,Jalandhar,31.3244,75.5769,Pizza|Bakery,Veg,images/342.jpg,4.5
+343,Chatori Gali,Punjab,Moga,30.8121,75.1688,Street|Snacks,Veg,images/343.jpg,2.6
+344,Mirchi Bakes,Punjab,Ludhiana,30.9071,75.8611,Bakery|Snacks,Veg,images/344.jpg,2.4
+345,Cloud Café,Punjab,Amritsar,31.6311,74.872,Cafe|Bakery,Veg,images/345.jpg,3.9
+346,Veggie Village,Punjab,Faridkot,30.6797,74.7571,Vegetarian|Snacks,Veg,images/346.jpg,3.7
+347,Bliss Bar,Punjab,Barnala,30.3705,75.5489,Bar|Snack,Veg,images/347.jpg,4.7
+348,Peppy Pizza,Punjab,Jalandhar,31.3284,75.5794,Pizza|Continental,Veg,images/348.jpg,3.3
+349,Beat & Bean,Punjab,Mohali,30.7085,76.7117,Cafe|Coffee,Veg,images/349.jpg,4.9
+350,Saffron Bites,Punjab,Hoshiarpur,31.5327,75.9113,Indian|Punjabi,Veg,images/350.jpg,3.4
+351,Desi Diner,Punjab,Fatehgarh Sahib,30.6476,76.3961,Indian|Punjabi,Veg,images/351.jpg,2.2
+352,Sizzle House,Punjab,Muktsar,30.4783,74.5149,Indian|Sizzler,Non-Veg,images/352.jpg,2.5
+353,Royal Veggies,Punjab,Sangrur,30.2561,75.8494,Vegetarian|Salads,Veg,images/353.jpg,3.9
+354,Patiala Point,Punjab,Patiala,30.3478,76.3838,North Indian|Thai,Veg,images/354.jpg,4.0
+355,The Red Café,Punjab,Pathankot,32.267,75.6492,Cafe|Chai,Veg,images/355.jpg,3.5
+356,Happy Herbivore,Punjab,Mansa,29.9943,75.3988,Vegan|Veg,Veg,images/356.jpg,2.6
+357,Masala Morning,Punjab,Faridkot,30.6761,74.7617,Indian|Breakfast,Veg,images/357.jpg,3.7
+358,Fusion Bistro,Punjab,Mohali,30.7051,76.7198,Continental|Mexican,Non-Veg,images/358.jpg,4.1
+359,Chopsticks Chef,Punjab,Bathinda,30.2173,74.9439,Chinese|Thai,Non-Veg,images/359.jpg,4.7
+360,Sip & Serve,Punjab,Ropar,30.9667,76.5289,Cafe|Bakery,Veg,images/360.jpg,2.5
+361,Hot Potatoes,Punjab,Barnala,30.3739,75.5471,Snacks|Cafe,Veg,images/361.jpg,4.1
+362,Slice of Heaven,Punjab,Patiala,30.3451,76.3903,Pizza|Bakery,Veg,images/362.jpg,3.7
+363,Juice Junction,Punjab,Gurdaspur,32.0403,75.413,Juices|Snacks,Veg,images/363.jpg,2.5
+364,Tandoor & More,Punjab,Amritsar,31.6375,74.8765,BBQ|Indian,Non-Veg,images/364.jpg,4.4
+365,Flavour Box,Punjab,Malerkotla,30.5251,75.8801,Indian|Mexican,Non-Veg,images/365.jpg,2.6
+366,Café Aroma,Punjab,Bathinda,30.2127,74.9426,Cafe|Bakery,Veg,images/366.jpg,3.8
+367,Pantry's Place,Punjab,Patiala,30.3477,76.391,Continental|Cafe,Veg,images/367.jpg,4.2
+368,The Big Bite,Punjab,Jalandhar,31.337,75.5811,Continental|BBQ,Non-Veg,images/368.jpg,4.3
+369,Beanstalk Café,Punjab,Ludhiana,30.9028,75.8586,Cafe|Salads,Veg,images/369.jpg,2.0
+370,Paneer Paradise,Punjab,Amritsar,31.6382,74.8708,Vegetarian|Punjabi,Veg,images/370.jpg,3.7
+371,Hunger's Bar,Punjab,Gurdaspur,32.0418,75.4079,Bar|Snacks,Non-Veg,images/371.jpg,4.9
+372,Bean & Bakes,Punjab,Bathinda,30.2147,74.9464,Bakery|Coffee,Veg,images/372.jpg,3.1
+373,Midnight Bistro,Punjab,Sangrur,30.2531,75.8493,Bistro|Continental,Veg,images/373.jpg,3.8
+374,Tiffin Table,Punjab,Barnala,30.3773,75.5477,Indian|Snacks,Veg,images/374.jpg,4.2
+375,Festive Flavors,Punjab,Faridkot,30.6771,74.7592,Indian|Punjabi,Veg,images/375.jpg,2.4
+376,Nutrition Nook,Punjab,Moga,30.8155,75.1665,Health|Snacks,Veg,images/376.jpg,4.5
+377,Baked Bliss,Punjab,Jalandhar,31.3359,75.5823,Bakery|Continental,Veg,images/377.jpg,3.3
+378,Indulge House,Punjab,Ludhiana,30.907,75.8627,Indian|Snacks,Veg,images/378.jpg,3.0
+379,Lassi Palace,Punjab,Patiala,30.3472,76.3855,Beverages|Snacks,Veg,images/379.jpg,2.9
+380,Masala Cafe,Punjab,Malerkotla,30.5269,75.8859,Indian|Indian,Veg,images/380.jpg,4.2
+381,Tea Trekkers,Punjab,Bathinda,30.2184,74.9461,Chai|Cafe,Veg,images/381.jpg,2.3
+382,Barfi Bite,Punjab,Amritsar,31.6364,74.8792,Sweet|Dessert,Veg,images/382.jpg,3.7
+383,Curry Crafters,Punjab,Mohali,30.7081,76.7156,Indian|Continental,Non-Veg,images/383.jpg,3.4
+384,Tiffin Tales,Punjab,Faridkot,30.6785,74.7539,Indian|Snacks,Veg,images/384.jpg,2.6
+385,Bread Grill,Punjab,Fatehgarh Sahib,30.6479,76.3956,Bakery|BBQ,Veg,images/385.jpg,3.9
+386,Quick Cafe,Punjab,Pathankot,32.2663,75.6534,Cafe|Snacks,Veg,images/386.jpg,4.7
+387,Hook and Cook,Punjab,Barnala,30.3713,75.5446,Indian|BBQ,Non-Veg,images/387.jpg,3.7
+388,Momo House,Punjab,Ludhiana,30.9032,75.8657,Chinese|Snacks,Non-Veg,images/388.jpg,2.0
+389,Flavour Junction,Punjab,Patiala,30.3475,76.3899,Indian|Continental,Veg,images/389.jpg,2.1
+390,Spice Station,Punjab,Hoshiarpur,31.532,75.9109,Snacks|Street,Veg,images/390.jpg,2.6
+391,Patiala Perks,Punjab,Patiala,30.3459,76.385,Beverages|Cafe,Veg,images/391.jpg,4.3
+392,Donut Den,Punjab,Moga,30.8152,75.1685,Bakery|Cafe,Veg,images/392.jpg,3.6
+393,Onion Oath,Punjab,Amritsar,31.6335,74.8783,Indian|Snacks,Veg,images/393.jpg,4.6
+394,Manchurian Manor,Punjab,Bathinda,30.2138,74.9499,Chinese|Indian,Non-Veg,images/394.jpg,3.4
+395,Chaat House,Punjab,Mohali,30.7153,76.7119,Chaat|Indian,Veg,images/395.jpg,3.9
+396,Punjab Potato,Punjab,Barnala,30.3769,75.5491,Snacks|Salads,Veg,images/396.jpg,4.5
+397,Chilli Pepper Café,Punjab,Ropar,30.9691,76.5253,Continental|Bakery,Veg,images/397.jpg,4.9
+398,Snax Shak,Punjab,Gurdaspur,32.0491,75.4118,Snacks|Cafe,Veg,images/398.jpg,2.7
+399,Mix Veg House,Punjab,Fatehgarh Sahib,30.6465,76.3974,Vegetarian|Punjabi,Veg,images/399.jpg,2.3
+400,Green Peas Café,Punjab,Bathinda,30.2153,74.9446,Cafe|Continental,Veg,images/400.jpg,4.3
+401,Tea & Tadka,Punjab,Faridkot,30.6777,74.7619,Chai|Indian,Veg,images/401.jpg,4.0
+402,Tasty Tadka,Punjab,Moga,30.8144,75.1705,Indian|Punjabi,Veg,images/402.jpg,3.3
+403,Sprouts by Spoon,Punjab,Malerkotla,30.5243,75.8841,Salads|Healthy,Veg,images/403.jpg,2.9
+404,Baker's Bay,Punjab,Bathinda,30.2195,74.9492,Bakery|Cafe,Veg,images/404.jpg,4.8
+405,Flavours & More,Punjab,Amritsar,31.6353,74.8791,Indian|Continental,Veg,images/405.jpg,3.6
+406,Tossed Up,Punjab,Barnala,30.3706,75.5481,Continental|Salads,Veg,images/406.jpg,4.2
+407,The Grill House,Punjab,Mohali,30.7008,76.7148,BBQ|Snacks,Non-Veg,images/407.jpg,2.2
+408,Sweet Tooth,Punjab,Mansa,29.9932,75.3977,Dessert|Bakery,Veg,images/408.jpg,3.7
+409,Zeera Zest,Punjab,Patiala,30.3473,76.3909,Indian|Snacks,Veg,images/409.jpg,2.5
+410,Pani Puri Place,Punjab,Hoshiarpur,31.5352,75.9116,Street|Snacks,Veg,images/410.jpg,3.1
+411,Treat Crate,Punjab,Firozpur,30.9295,74.6247,Bakery|Snacks,Veg,images/411.jpg,3.8
+412,Bite & Beans,Punjab,Jalandhar,31.3283,75.5793,Cafe|Snacks,Veg,images/412.jpg,4.9
+413,Coffee Chapter,Punjab,Ludhiana,30.9024,75.8667,Coffee|Bakery,Veg,images/413.jpg,3.5
+414,Bake It Up,Punjab,Anandpur Sahib,31.2437,76.5148,Bakery|Desserts,Veg,images/414.jpg,4.1
+415,Bistro Box,Punjab,Ropar,30.9677,76.5262,Continental|Snacks,Veg,images/415.jpg,3.4
+416,MixFix Café,Punjab,Pathankot,32.2659,75.6505,Snacks|Cafe,Veg,images/416.jpg,4.5
+417,Masaledar,Punjab,Patiala,30.3491,76.3881,Indian|Punjabi,Non-Veg,images/417.jpg,4.1
+418,Zaika Junction,Punjab,Bathinda,30.2162,74.9412,Indian|BBQ,Veg,images/418.jpg,3.6
+419,Patiala Bakery,Punjab,Patiala,30.3472,76.3865,Bakery|Continental,Veg,images/419.jpg,2.6
+420,Lassi Lounge,Punjab,Barnala,30.3776,75.5486,Beverages|Snacks,Veg,images/420.jpg,2.8
+421,Tandoor Town,Punjab,Mohali,30.7159,76.7158,Tandoori|Indian,Non-Veg,images/421.jpg,4.6
+422,Bread Basket,Punjab,Bathinda,30.2181,74.9456,Bakery|Snacks,Veg,images/422.jpg,3.7
+423,Sandwich Factory,Punjab,Ludhiana,30.9093,75.8606,Bakery|Continental,Veg,images/423.jpg,3.0
+424,Kadhi Kettle,Punjab,Sangrur,30.2516,75.8481,Indian|Punjabi,Veg,images/424.jpg,4.4
+425,Sweet Street,Punjab,Gurdaspur,32.0481,75.4037,Dessert|Bakery,Veg,images/425.jpg,4.1
+426,Royal Kitchen,Punjab,Faridkot,30.6745,74.7553,Indian|Punjabi,Non-Veg,images/426.jpg,3.2
+427,Paprika Point,Punjab,Malout,30.1972,74.4662,Continental|Punjabi,Veg,images/427.jpg,4.9
+428,Soya Station,Punjab,Jalandhar,31.336,75.5819,Vegetarian|Punjabi,Veg,images/428.jpg,2.4
+429,Fiesta Fries,Punjab,Ludhiana,30.9005,75.8621,Snacks|Fries,Veg,images/429.jpg,4.3
+430,Brown Brick Café,Punjab,Bathinda,30.2148,74.9435,Cafe|Bakery,Veg,images/430.jpg,3.7
+431,Cloud 9 Cafe,Punjab,Fatehgarh Sahib,30.6498,76.3987,Cafe|Beverages,Veg,images/431.jpg,2.7
+432,All Spice,Punjab,Fazilka,30.4057,74.0294,Indian|Spicy,Non-Veg,images/432.jpg,2.9
+433,Saffron Spoon,Punjab,Patiala,30.3469,76.3862,Indian|Punjabi,Non-Veg,images/433.jpg,4.7
+434,Veggie Versus,Punjab,Moga,30.8122,75.1617,Vegan|Salads,Veg,images/434.jpg,2.1
+435,Peas & Beans,Punjab,Gurdaspur,32.0401,75.412,Vegetarian|Punjabi,Veg,images/435.jpg,4.3
+436,Chole Chat,Punjab,Barnala,30.3751,75.544,Indian|Street,Veg,images/436.jpg,4.7
+437,Roti Rollers,Punjab,Amritsar,31.6348,74.877,Indian|Roll,Veg,images/437.jpg,4.2
+438,Southern Spice,Punjab,Patiala,30.3501,76.3839,South Indian|Snacks,Veg,images/438.jpg,3.4
+439,Momo Point,Punjab,Firozpur,30.9304,74.6246,Chinese|Snacks,Veg,images/439.jpg,2.8
+440,Kebab Kurry,Punjab,Mohali,30.7032,76.7132,Kebab|Indian,Non-Veg,images/440.jpg,4.8
+441,Sweet Centre,Punjab,Hoshiarpur,31.5337,75.9122,Dessert|Snacks,Veg,images/441.jpg,2.2
+442,Snacks Corner,Punjab,Jalandhar,31.3252,75.5824,Snacks|Indian,Veg,images/442.jpg,3.6
+443,Paratha House,Punjab,Bathinda,30.2129,74.9493,Paratha|Indian,Veg,images/443.jpg,3.8
+444,Spice N Slice,Punjab,Ludhiana,30.9033,75.8678,Pizza|Indian,Non-Veg,images/444.jpg,4.2
+445,Desi Spice,Punjab,Malout,30.1895,74.4708,North Indian|Punjabi,Veg,images/445.jpg,3.1
+446,Sweet Treat Café,Punjab,Pathankot,32.2623,75.6469,Dessert|Bakery,Veg,images/446.jpg,2.5
+447,Herb House,Punjab,Barnala,30.3764,75.546,Salads|Bakery,Veg,images/447.jpg,2.0
+448,Pepper Palate,Punjab,Gurdaspur,32.0498,75.416,Indian|Mexican,Non-Veg,images/448.jpg,2.4
+449,Sweet Tooth Lane,Punjab,Hoshiarpur,31.5369,75.9121,Bakery|Dessert,Veg,images/449.jpg,5.0
+450,Crave Kitchen,Punjab,Patiala,30.3491,76.3834,Continental|Snacks,Veg,images/450.jpg,3.9
+451,Punjabi Zaika,Punjab,Amritsar,31.6351,74.8716,Indian|Punjabi,Non-Veg,images/451.jpg,4.3
+452,Chutney Chowk,Punjab,Bathinda,30.2102,74.9487,Indian|Chutney,Veg,images/452.jpg,2.9
+453,Momo Magic,Punjab,Jalandhar,31.3353,75.5799,Chinese|Snacks,Veg,images/453.jpg,4.8
+454,Barfi Bazaar,Punjab,Faridkot,30.6762,74.7557,Indian|Dessert,Veg,images/454.jpg,2.7
+455,Bread Shed,Punjab,Bathinda,30.2193,74.9402,Bakery|Snacks,Veg,images/455.jpg,2.8
+456,Gastro Lab,Punjab,Ludhiana,30.9044,75.8572,Continental|Bakery,Veg,images/456.jpg,3.8
+457,Juice Juncture,Punjab,Barnala,30.3728,75.5475,Juices|Snacks,Veg,images/457.jpg,3.5
+458,Pizza Point,Punjab,Mohali,30.7057,76.7182,Pizza|Continental,Veg,images/458.jpg,4.4
+459,Herb Bowl,Punjab,Gurdaspur,32.0433,75.4165,Salads|Indian,Veg,images/459.jpg,3.0
+460,Bistro Bites,Punjab,Sangrur,30.2524,75.8407,Continental|Snacks,Veg,images/460.jpg,2.2
+461,Big Bean Café,Punjab,Jalandhar,31.3336,75.5709,Cafe|Bakery,Veg,images/461.jpg,2.4
+462,The Dessert Den,Punjab,Amritsar,31.6327,74.878,Dessert|Bakery,Veg,images/462.jpg,2.6
+463,Bite Street,Punjab,Patiala,30.3491,76.3929,Street|Snacks,Veg,images/463.jpg,4.4
+464,Tangy Temptations,Punjab,Barnala,30.374,75.5442,Chaats|Snacks,Veg,images/464.jpg,3.2
+465,Crust Corner,Punjab,Ludhiana,30.9092,75.8609,Pizza|Bakery,Veg,images/465.jpg,4.7
+466,Fusion Flavours,Punjab,Bathinda,30.2203,74.9451,Continental|Mexican,Non-Veg,images/466.jpg,3.9
+467,Café Chini,Punjab,Moga,30.8192,75.1713,Cafe|Snacks,Veg,images/467.jpg,2.5
+468,Paneer Plus,Punjab,Amritsar,31.6355,74.8739,North Indian|Punjabi,Veg,images/468.jpg,4.9
+469,Tandoori Twist,Punjab,Malerkotla,30.5226,75.8807,Tandoori|North Indian,Non-Veg,images/469.jpg,2.7
+470,Citron Café,Punjab,Amritsar,31.6356,74.8734,Bakery|Cafe,Veg,images/470.jpg,4.2
+471,Spice Way,Punjab,Bathinda,30.2138,74.9432,Indian|Spicy,Non-Veg,images/471.jpg,3.4
+472,Roll Mania,Punjab,Patiala,30.3475,76.3914,Indian|Roll,Veg,images/472.jpg,5.0
+473,Snack Square,Punjab,Moga,30.8182,75.1716,Snacks|Bakery,Veg,images/473.jpg,3.6
+474,Green Plate,Punjab,Gurdaspur,32.0418,75.4091,Continental|Veg,Veg,images/474.jpg,2.7
+475,Sandwich Hub,Punjab,Sangrur,30.2592,75.8498,Sandwich|Cafe,Veg,images/475.jpg,4.3
+476,Café Delight,Punjab,Barnala,30.3719,75.5478,Cafe|Bakery,Veg,images/476.jpg,3.6
+477,Snack Beat,Punjab,Bathinda,30.2158,74.9466,Snacks|Chaat,Veg,images/477.jpg,4.8
+478,Chocobar Café,Punjab,Jalandhar,31.3247,75.5776,Chocolate|Bakery,Veg,images/478.jpg,4.2
+479,Quick Serve,Punjab,Mohali,30.7172,76.7163,Snacks|Bakery,Veg,images/479.jpg,4.7
+480,Street Spoon,Punjab,Firozpur,30.9302,74.6215,Indian|Snacks,Veg,images/480.jpg,4.9
+481,Coffee Barrel,Punjab,Ludhiana,30.906,75.8687,Coffee|Bakery,Veg,images/481.jpg,3.2
+482,Salt Street,Punjab,Faridkot,30.6737,74.7578,Snacks|Indian,Veg,images/482.jpg,2.1
+483,Pita Point,Punjab,Hoshiarpur,31.5292,75.9164,Continental|Bakery,Veg,images/483.jpg,3.7
+484,Samosa Stop,Punjab,Bathinda,30.2212,74.9461,Indian|Snacks,Veg,images/484.jpg,2.8
+485,Crispy Café,Punjab,Muktsar,30.4781,74.5192,Snacks|Bakery,Veg,images/485.jpg,2.5
+486,Peanut Plate,Punjab,Fatehgarh Sahib,30.6481,76.3952,Bakery|Snacks,Veg,images/486.jpg,3.5
+487,Steamed Bites,Punjab,Bathinda,30.2102,74.9439,Snacks|Steamed,Veg,images/487.jpg,2.3
+488,Tandoor Bites,Punjab,Ropar,30.9637,76.5285,Tandoori|Indian,Non-Veg,images/488.jpg,4.6
+489,Pepper Trail,Punjab,Bathinda,30.2129,74.9458,Indian|Spicy,Veg,images/489.jpg,2.2
+490,Golden Spoon,Punjab,Amritsar,31.6323,74.8707,Indian|Continental,Non-Veg,images/490.jpg,4.4
+491,Veggie Crust,Punjab,Ludhiana,30.9083,75.8691,Pizza|Bakery,Veg,images/491.jpg,3.5
+492,Potato Plate,Punjab,Patiala,30.3447,76.3851,Snacks|Continental,Veg,images/492.jpg,3.3
+493,Bean Brew,Punjab,Barnala,30.3708,75.5481,Coffee|Bakery,Veg,images/493.jpg,2.7
+494,Mithai Magic,Punjab,Bathinda,30.2167,74.9477,Dessert|Indian,Veg,images/494.jpg,3.7
+495,Tasty Bites,Punjab,Hoshiarpur,31.5349,75.9177,Snacks|Punjabi,Veg,images/495.jpg,4.0
+496,The Red Bean,Punjab,Mohali,30.7154,76.7129,Cafe|Bakery,Veg,images/496.jpg,4.5
+497,Sweet Saffron,Punjab,Patiala,30.3471,76.3811,Bakery|Dessert,Veg,images/497.jpg,2.8
+498,Baked Daily,Punjab,Bathinda,30.2111,74.9431,Bakery|Cafe,Veg,images/498.jpg,4.1
+499,Bite Café,Punjab,Gurdaspur,32.0434,75.4066,Snacks|Bakery,Veg,images/499.jpg,2.6
+500,Food Junction,Punjab,Amritsar,31.631,74.8706,Indian|Punjabi,Non-Veg,images/500.jpg,3.9
+501,Fresh Bites,Punjab,Amritsar,31.4834,74.9595,Punjabi,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.4
+502,Guru-Ka-Langar,Punjab,Amritsar,31.653,75.0123,North Indian,Non-Veg,https://images.unsplash.com/photo-1523987355523-c7b5b0734b0d?auto=format&fit=crop&w=400&q=80,2.1
+503,Neelamaos,Punjab,Amritsar,31.5156,74.8769,North Indian,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.1
+504,Midnight Bite,Punjab,Amritsar,31.6135,74.7772,Cafe,Non-Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,4.4
+505,Kesar Da Dhaba,Punjab,Amritsar,31.6776,74.7559,Continental,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,2.8
+506,United Punjab,Punjab,Amritsar,31.69,74.9201,Chinese,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.6
+507,The Dhaba House,Punjab,Amritsar,31.5702,74.8544,Punjabi,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,5.0
+508,Heritage Bites,Punjab,Amritsar,31.5218,74.8411,Mughlai,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.2
+509,Punjabi Zayka,Punjab,Amritsar,31.617,74.985,North Indian,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.3
+510,Nanak Bhandar,Punjab,Amritsar,31.5256,74.7392,South Indian,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.8
+511,Urban Plate,Punjab,Amritsar,31.7314,75.0735,Continental,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,2.7
+512,Chaat Villa,Punjab,Amritsar,31.6101,74.8387,Street Food,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.6
+513,Baba Bowl,Punjab,Amritsar,31.482,75.0251,North Indian,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,2.5
+514,Sher-e-Punjab,Punjab,Amritsar,31.7196,75.0587,Tandoori,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,5.0
+515,Raj Resorts,Punjab,Amritsar,31.6767,74.9152,Continental,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.5
+516,Golden Spoon,Punjab,Amritsar,31.5421,75.0802,Multi-Cuisine,Veg,https://images.unsplash.com/photo-1460216269356-1e1a81c12e3a?auto=format&fit=crop&w=400&q=80,2.6
+517,Zaika Bhawan,Punjab,Amritsar,31.4625,75.0105,Punjabi,Non-Veg,https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=400&q=80,4.0
+518,Taste Avenue,Punjab,Amritsar,31.6694,74.8427,Continental,Non-Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,3.0
+519,Hot Plate,Punjab,Amritsar,31.5538,74.9332,Chinese,Veg,https://images.unsplash.com/photo-1429554429301-01bcd64c6eab?auto=format&fit=crop&w=400&q=80,4.4
+520,Urban Tadka,Punjab,Amritsar,31.4837,74.7324,North Indian,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.9
+521,Shahi Fusion,Punjab,Amritsar,31.4736,74.864,Fusion,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.2
+522,Satnam Eatery,Punjab,Amritsar,31.4396,75.035,Punjabi,Veg,https://images.unsplash.com/photo-1460216269356-1e1a81c12e3a?auto=format&fit=crop&w=400&q=80,2.9
+523,Palm Coast Cafe,Punjab,Amritsar,31.7199,74.9847,South Indian,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,3.6
+524,Mint & Munch,Punjab,Amritsar,31.5395,75.0263,Bakery,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.1
+525,Patiala Treats,Punjab,Amritsar,31.6421,74.9154,North Indian,Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,4.9
+526,Pind Platter,Punjab,Amritsar,31.5836,75.0682,Punjabi,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.5
+527,Dilli 6 Flavours,Punjab,Amritsar,31.5539,74.7315,Street Food,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.1
+528,Green Chili,Punjab,Amritsar,31.7235,74.9844,Chinese,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.7
+529,Desi Bites,Punjab,Amritsar,31.5332,75.0621,Multi-Cuisine,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.0
+530,Turban Chefs,Punjab,Amritsar,31.6919,74.9173,Punjabi,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,2.7
+531,Flavours Junction,Punjab,Amritsar,31.412,74.748,Continental,Non-Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.2
+532,Nawab's Kitchen,Punjab,Amritsar,31.6278,75.0451,Mughlai,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,2.5
+533,Chaska Hub,Punjab,Amritsar,31.5532,74.8695,Street Food,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.6
+534,Happy Food Court,Punjab,Amritsar,31.5004,74.901,North Indian,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,2.3
+535,Pulse Cafe,Punjab,Amritsar,31.6711,74.8289,Continental,Non-Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,5.0
+536,Namaste Punjab,Punjab,Amritsar,31.4802,75.0816,Punjabi,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,2.8
+537,Bite Square,Punjab,Amritsar,31.7103,74.9522,Fast Food,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.9
+538,Blue Oven,Punjab,Amritsar,31.492,74.8658,Bakery,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.8
+539,Tandoori Villa,Punjab,Amritsar,31.5335,75.0912,Tandoori,Non-Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,2.6
+540,Green Leaf Eats,Punjab,Amritsar,31.6462,74.9874,Salads,Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,3.2
+541,Chef’s Delight,Punjab,Amritsar,31.5282,74.7843,Continental,Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,4.9
+542,Northern Feast,Punjab,Amritsar,31.4178,75.0512,North Indian,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.3
+543,Bakes & Beans,Punjab,Amritsar,31.6186,75.0919,Bakery,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,2.7
+544,Rasoi Junction,Punjab,Amritsar,31.5752,74.7992,Punjabi,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.6
+545,Pataka Bite,Punjab,Amritsar,31.4966,74.8399,Fast Food,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,3.8
+546,Mughal Darbar,Punjab,Amritsar,31.6538,74.9972,Mughlai,Non-Veg,https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=400&q=80,2.5
+547,Bajwa Kitchen,Punjab,Amritsar,31.4779,74.748,North Indian,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,4.5
+548,Mehak Dhaba,Punjab,Amritsar,31.5968,74.9694,Punjabi,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,5.0
+549,Street Feast,Punjab,Amritsar,31.6135,75.0739,Street Food,Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,3.6
+550,Punjab Chulha,Punjab,Amritsar,31.5496,74.8746,Punjabi,Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,4.0
+551,The Spice Box,Punjab,Amritsar,31.5909,74.8471,North Indian,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.2
+552,Food Garage,Punjab,Amritsar,31.5447,75.0763,Fusion,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,2.2
+553,Milestone Meals,Punjab,Amritsar,31.5102,74.9043,Multi-Cuisine,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.8
+554,Bikaner Bites,Punjab,Amritsar,31.4746,74.9671,North Indian,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,2.1
+555,Amritsari Oven,Punjab,Amritsar,31.6522,74.7642,Pizza,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,5.0
+556,Flame Shack,Punjab,Amritsar,31.6301,74.8851,Fast Food,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,2.5
+557,Gobhi Gully,Punjab,Amritsar,31.6131,74.9333,Street Food,Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,4.2
+558,Royal Rasoi,Punjab,Amritsar,31.5522,74.8001,North Indian,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.7
+559,Zero Mile Dhaba,Punjab,Amritsar,31.6107,74.8711,Punjabi,Veg,https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=400&q=80,3.5
+560,Hotspot Grills,Punjab,Amritsar,31.6813,74.8283,BBQ,Non-Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,4.8
+561,Burger Singh,Punjab,Amritsar,31.4791,74.9952,Fast Food,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,5.0
+562,Savitri Bhojanalaya,Punjab,Amritsar,31.5872,75.0447,North Indian,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.0
+563,Swad Punjab Da,Punjab,Amritsar,31.537,75.0644,Punjabi,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.2
+564,The Curry Pot,Punjab,Amritsar,31.6253,74.788,North Indian,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,2.7
+565,Bistro Amritsar,Punjab,Amritsar,31.5532,74.9125,Continental,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,4.3
+566,Brown Sugar Café,Punjab,Amritsar,31.6453,74.8696,Bakery,Veg,https://images.unsplash.com/photo-1460216269356-1e1a81c12e3a?auto=format&fit=crop&w=400&q=80,3.9
+567,Patiala Shahi,Punjab,Amritsar,31.6952,74.9912,North Indian,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,2.4
+568,Garam Masala,Punjab,Amritsar,31.6884,75.0302,North Indian,Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,3.6
+569,Purple Plate,Punjab,Amritsar,31.4805,74.7381,Multi-Cuisine,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.8
+570,Pepper Hut,Punjab,Amritsar,31.4919,75.061,Chinese,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.2
+571,Hot Paprika,Punjab,Amritsar,31.6024,74.7539,Continental,Veg,https://images.unsplash.com/photo-1460216269356-1e1a81c12e3a?auto=format&fit=crop&w=400&q=80,4.7
+572,Royal Curry House,Punjab,Amritsar,31.5392,74.9037,North Indian,Non-Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,4.3
+573,Soya Carnival,Punjab,Amritsar,31.6052,74.9765,Punjabi,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.1
+574,Guru's Café,Punjab,Amritsar,31.551,75.035,Cafe,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.8
+575,Sirhind Chefs,Punjab,Amritsar,31.4977,74.9566,North Indian,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,2.6
+576,Midtown Mandi,Punjab,Amritsar,31.6189,74.8041,Punjabi,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.1
+577,Anardana Food Court,Punjab,Amritsar,31.5347,74.8784,Street Food,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.2
+578,Baker's Villa,Punjab,Amritsar,31.6553,74.7669,Bakery,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,2.5
+579,Dhaba Delight,Punjab,Amritsar,31.5683,75.0439,Punjabi,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.0
+580,Biryani House,Punjab,Amritsar,31.5733,74.8712,Biryani,Non-Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.6
+581,Flavours & Co,Punjab,Amritsar,31.6759,74.9176,Continental,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.5
+582,Desi Junction,Punjab,Amritsar,31.6331,75.0376,Punjabi,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,2.9
+583,Mezbaan, Punjab,Amritsar,31.5525,75.0784,Mughlai,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.2
+584,Spice Junction,Punjab,Amritsar,31.426,74.8445,North Indian,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.6
+585,Bikaner Misthan,Punjab,Amritsar,31.604,74.7962,Snacks,Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,4.1
+586,Urban Roots,Punjab,Amritsar,31.5753,74.7323,Healthy,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.0
+587,Pita Lane,Punjab,Amritsar,31.4863,75.001,Continental,Veg,https://images.unsplash.com/photo-1464699908539-16c9b1b2dfb9?auto=format&fit=crop&w=400&q=80,4.5
+588,The Great Punjab,Punjab,Amritsar,31.6796,74.8063,Punjabi,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.8
+589,Foodville,Punjab,Amritsar,31.5777,74.9661,Multi-Cuisine,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,2.7
+590,Chef's Point,Punjab,Amritsar,31.4499,75.0221,North Indian,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.4
+591,Golden Oven,Punjab,Amritsar,31.4842,74.856,Bakery,Veg,https://images.unsplash.com/photo-1460216269356-1e1a81c12e3a?auto=format&fit=crop&w=400&q=80,4.3
+592,Paratha Palace,Punjab,Amritsar,31.5612,75.0502,Paratha,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,2.3
+593,Dilliwale Thali,Punjab,Amritsar,31.6507,74.8883,Thali,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.6
+594,Bread Basket,Punjab,Amritsar,31.5479,74.9535,Bakery,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,2.9
+595,Saffron Spoon,Punjab,Amritsar,31.5113,74.8736,Punjabi,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.8
+596,Desi Adda,Punjab,Amritsar,31.577,74.9117,Punjabi,Non-Veg,https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&w=400&q=80,3.3
+597,Kulcha Bar,Punjab,Amritsar,31.6291,75.0334,Kulcha,Veg,https://images.unsplash.com/photo-1523987355523-c7b5b0734b0d?auto=format&fit=crop&w=400&q=80,5.0
+598,Crave Kitchen,Punjab,Amritsar,31.5298,74.8158,Continental,Veg,https://images.unsplash.com/photo-1460216269356-1e1a81c12e3a?auto=format&fit=crop&w=400&q=80,4.0
+599,Punjabi Affair,Punjab,Amritsar,31.4456,74.8631,Punjabi,Non-Veg,https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80,3.1
+600,Tasty Trails,Punjab,Amritsar,31.6124,75.0366,Multi-Cuisine,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.9
+601,Cafe Delight,Punjab,Fatehgarh Sahib,30.6515,76.3991,Continental|Pizza,Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.9
+602,Junction Grills,Punjab,Barnala,30.3723,75.5499,Indian|BBQ,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.5
+603,Spice Society,Punjab,Gurdaspur,32.0438,75.4023,Chinese|Thai,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,2.9
+604,Palette Deli,Punjab,Muktsar,30.474,74.5134,Mexican|Italian,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.7
+605,Leaf Bazaar,Punjab,Gurdaspur,32.0414,75.406,Continental|BBQ,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,5.0
+606,Bistro Vault,Punjab,Barnala,30.3732,75.5504,Vegan|Pizza,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.6
+607,Palace Savor,Punjab,Fatehgarh Sahib,30.6492,76.3983,Indian|Mexican,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.7
+608,Root Point,Punjab,Fazilka,30.4047,74.0252,BBQ|Thai,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,2.8
+609,Spice Beats,Punjab,Fazilka,30.4062,74.0274,Indian|Chinese,Non-Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.1
+610,Urban Canopy,Punjab,Malerkotla,30.525,75.8791,Mexican|Pizza,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.9
+611,Cafe Heights,Punjab,Fatehgarh Churian,32.1431,74.9462,Indian|BBQ,Non-Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,3.5
+612,Brew Point,Punjab,Gurdaspur,32.0441,75.4086,Thai|Continental,Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.3
+613,Palette Sweets,Punjab,Batala,31.8175,75.2032,BBQ|Pizza,Non-Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,2.7
+614,Fresh Eats,Punjab,Bathinda,30.2138,74.9447,Indian|Chinese,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.0
+615,Bean Nest,Punjab,Malout,30.1814,74.472,Mexican|Vegan,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,3.2
+616,Feast Heights,Punjab,Barnala,30.3781,75.5537,Indian|Pizza,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.6
+617,Sip Society,Punjab,Gurdaspur,32.0402,75.4072,Continental|BBQ,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.4
+618,Junction Taste,Punjab,Bathinda,30.2147,74.944,Mexican|Pizza,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,4.1
+619,Cafe Place,Punjab,Muktsar,30.4757,74.5111,BBQ|Mexican,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,3.7
+620,Urban Sweets,Punjab,Fatehgarh Churian,32.1407,74.9558,Italian|Pizza,Veg,https://images.unsplash.com/photo-1556742393-d75f468bfcb0?auto=format&fit=crop&w=400&q=80,4.5
+621,Delight Bites,Punjab,SBS Nagar,31.1299,76.1191,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,2.5
+622,Root Plaza,Punjab,Mansa,29.9942,75.3954,Indian|Continental,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.9
+623,Palette Palace,Punjab,Fazilka,30.4042,74.022,Mexican|Pizza,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.8
+624,Nest Bean,Punjab,Malerkotla,30.5232,75.8842,Thai|Continental,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,3.2
+625,Bite Lane,Punjab,Pathankot,32.2662,75.6505,Indian|BBQ,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.7
+626,Society Bowl,Punjab,Abohar,30.1644,74.1958,Continental|Pizza,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.5
+627,Brew Hub,Punjab,Batala,31.8207,75.2088,Indian|Vegan,Veg,https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=400&q=80,2.8
+628,Fresh Mint,Punjab,Moga,30.8184,75.1673,Bakery|Desserts,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.7
+629,Palette Palette,Punjab,Kapurthala,31.3876,75.3881,Italian|Pizza,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.2
+630,Urban Junction,Punjab,Patiala,30.3436,76.3926,Chinese|Thai,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.8
+631,Taste Terrace,Punjab,Mohali,30.6954,76.7197,Indian|Tandoori,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,4.0
+632,Sizzle Society,Punjab,Firozpur,30.9258,74.6204,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.5
+633,Brewster Lane,Punjab,Hoshiarpur,31.5363,75.9114,Indian|Mexican,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.9
+634,Nosh Society,Punjab,Patiala,30.3451,76.3851,Vegan|Pizza,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,3.7
+635,Nest & Co.,Punjab,Gurdaspur,32.0428,75.4032,Italian|BBQ,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,2.9
+636,Cafe Avenue,Punjab,Muktsar,30.4772,74.5209,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,4.1
+637,Savor Junction,Punjab,Bathinda,30.2179,74.9482,Indian|Mexican,Non-Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.7
+638,Mint Point,Punjab,Ludhiana,30.9065,75.8669,Thai|Continental,Veg,https://images.unsplash.com/photo-1512249903710-b7b3b3e7232f?auto=format&fit=crop&w=400&q=80,4.7
+639,Brew Junction,Punjab,Jalandhar,31.3329,75.5795,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.2
+640,Nosh Avenue,Punjab,Mansa,29.9936,75.3973,BBQ|Pizza,Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,3.8
+641,Canvas Club,Punjab,Sangrur,30.2587,75.8492,Continental|Indian,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.5
+642,Taste Boutique,Punjab,Barnala,30.3699,75.5417,Vegan|Continental,Veg,https://images.unsplash.com/photo-1464219789966-cfa237f996d0?auto=format&fit=crop&w=400&q=80,3.1
+643,Junction Place,Punjab,Fatehgarh Sahib,30.6498,76.3963,Indian|Pizza,Non-Veg,https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=400&q=80,3.8
+644,Spice Club,Punjab,Fazilka,30.4082,74.0314,Chinese|Thai,Veg,https://images.unsplash.com/photo-1461301214746-1e109215d6d3?auto=format&fit=crop&w=400&q=80,4.9
+645,Brew Republic,Punjab,Gurdaspur,32.0485,75.4101,Mexican|BBQ,Non-Veg,https://images.unsplash.com/photo-1541544181056-1ec918fcd43e?auto=format&fit=crop&w=400&q=80,4.0
+646,Nosh Union,Punjab,Muktsar,30.475,74.5158,Indian|Continental,Veg,https://images.unsplash.com/photo-1516685018646-5499d0a7d26b?auto=format&fit=crop&w=400&q=80,4.3
+647,Palette Heights,Punjab,Kapurthala,31.3852,75.3868,Italian|Pizza,Non-Veg,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80,4.8
+648,Home Plate,Punjab,Sangrur,30.2523,75.8472,Mexican|Pizza,Veg,https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80,4.1
+649,Root Nook,Punjab,Bathinda,30.2148,74.9427,Bakery|Cafe,Veg,https://images.unsplash.com/photo-1506089676908-3592f7389d4d?auto=format&fit=crop&w=400&q=80,3.3
+650,Nosh Society,Punjab,SBS Nagar,31.1275,76.1202,Mexican|Pizza,Non-Veg,https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80,2.7
+bikaner_sweets_651,Bikaner Asr,Punjab,Amritsar,31.635,74.8725,indian,Veg,,4.9

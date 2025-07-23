@@ -1,0 +1,8 @@
+streamlit
+bcrypt
+pandas
+Pillow
+folium
+streamlit-folium
+streamlit-geolocation
+geopy
