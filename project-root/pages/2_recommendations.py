@@ -6,7 +6,6 @@ from backend.knn_filter import filter_by_distance
 from frontend.google_maps import create_map
 import pandas as pd
 
-<<<<<<< HEAD
 def recommendations():
     st.title("Recommendations")
     st.write("Restaurant recommendations will be shown here.")
@@ -16,11 +15,6 @@ if __name__ == "__page__":
 
 
 # -------------------- Config --------------------
-=======
-# -------------------- Config --------------------
-st.set_page_config(page_title="Restaurant Recommendations", layout="wide")
-
->>>>>>> 528974486cdc99b3f303d412ebb3f9fefd49a26c
 # Remove padding and vertical gaps below map
 st.markdown("""
 <style>

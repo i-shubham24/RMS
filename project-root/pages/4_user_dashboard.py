@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 
-<<<<<<< HEAD
 def user_dashboard():
     st.title("User Dashboard")
     st.write("Dashboard with user profile and saved restaurants.")
@@ -13,12 +12,6 @@ if __name__ == "__page__":
 
 LOG_PATH = "data/user_events.csv"
 
-=======
-LOG_PATH = "data/user_events.csv"
-
-st.set_page_config(page_title="User Dashboard", layout="wide")
-
->>>>>>> 528974486cdc99b3f303d412ebb3f9fefd49a26c
 if "user_info" not in st.session_state or not st.session_state["user_info"]:
     st.switch_page("pages/1_login_signup.py")
 
