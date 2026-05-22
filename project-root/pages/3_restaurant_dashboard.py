@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
+<<<<<<< HEAD
 def restaurant_dashboard():
     st.title("Restaurant Dashboard")
     st.write("Dashboard for restaurant owners.")
@@ -12,6 +13,12 @@ if __name__ == "__page__":
 
 DATA_PATH = "data/restaurants.csv"
 
+=======
+DATA_PATH = "data/restaurants.csv"
+
+st.set_page_config(page_title="Restaurant Dashboard", layout="wide")
+
+>>>>>>> 528974486cdc99b3f303d412ebb3f9fefd49a26c
 # Permissions
 if "user_info" not in st.session_state or not st.session_state["user_info"]:
     st.switch_page("pages/1_login_signup.py")

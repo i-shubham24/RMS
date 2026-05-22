@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 cd username,timestamp,event_type,details
+=======
+username,timestamp,event_type,details
+>>>>>>> 528974486cdc99b3f303d412ebb3f9fefd49a26c
 Rourkela_dhaba,2025-07-23 19:39:38,route,Green Leaf
 Rourkela_dhaba,2025-07-23 19:39:38,route,Savory Sojourn
 Rourkela_dhaba,2025-07-23 19:39:38,route,Gusto & Gourmet Galore

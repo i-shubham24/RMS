@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import streamlit as st
 
@@ -10,6 +11,13 @@ if __name__ == "__page__":
 
 from backend.user_auth import signup_user, login_user
 
+=======
+import streamlit as st
+from backend.user_auth import signup_user, login_user
+
+st.set_page_config(page_title="Login / Signup")
+
+>>>>>>> 528974486cdc99b3f303d412ebb3f9fefd49a26c
 if 'user_info' not in st.session_state:
     st.session_state["user_info"] = None
 
